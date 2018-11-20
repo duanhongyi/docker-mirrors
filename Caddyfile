@@ -1,9 +1,0 @@
-http://quay.io {
-    gzip
-    proxy / http://127.0.0.1:5001
-}
-
-http://gcr.io {
-    gzip
-    proxy / http://127.0.0.1:5000
-}
